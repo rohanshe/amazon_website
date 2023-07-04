@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.navbar{
+    height: 70px;
+    color: white;
+    background-color: #0f1111;
+    display: flex;
+}
+.nav_logo{
+    height: 70px;
+    width: 113px;
+}
+#logo{
+    height: 70px;
+    width: 100%;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    margin-left: 2px;
+    
+}
+/* .location_logo{
+    height: 180px;
+    width: 150px;
+    font-size: 400%;
+    background-color: black;
+
+  
+} */
+/* .input{
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    /* font-size: x-large;} */
+   
+    
+/* #searchbar{
+    position: absolute;
+    top: 16px;
+    left: 160px;
+    height: 33px;
+    width: 800px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    border-top-right-radius:0px ;
+    border-bottom-right-radius: 0px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+} */
+#location{
+  font-size: 20px;
+  position: relative;
+  left: 24px;
+  top: 29px;
+}
+.deliver{
+    color: hsl(0, 0%, 100% ,0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 28px;
+    top: 18px;
+
+}
+.india{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+   
+    right: 26px;
+    top: 32px;
+
+}
+#select{
+    height: 48px;
+    width: 51px;
+    color: #f3f3f3;
+    color: gray;
+
+}
+#searchbar{
+    width: 440px;
+    height: 45px;
+}
+
